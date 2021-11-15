@@ -1,0 +1,6 @@
+.infos_bas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  
