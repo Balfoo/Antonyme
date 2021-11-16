@@ -56,7 +56,7 @@ Dév Front-End:
 * Leemann Rémi
 * Soltysiak Clement
 
-***Développeur le film Antonyme <img src="Antonyme/asset/img/Logo.png" alt="Antonyme logo" width="200"/>
+***Développeur le film Antonyme <img src="asset/img/Logo.png" alt="Antonyme logo" width="200"/>
 
 ##Licence
 Copyright © 2021, Antonyme Released under the MIT License.
