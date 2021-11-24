@@ -1,3 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px !important;
+  text-shadow: 0px 4px 1px rgba(255, 0, 0, 0.47);
+}
+
 .infos_bas {
     display: flex;
     justify-content: space-evenly;
