@@ -4,7 +4,7 @@ body {
 
 .container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 h1 {
@@ -14,8 +14,19 @@ h1 {
 }
 
 .infos_bas {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+
+
+
+
+@media (max-width:1240px) { 
+  .container {        /*Marge minimale sur les bord sur petit écran*/
+      margin: 0 30px 0 30px;
   }
+
+}
   
