@@ -1,0 +1,22 @@
+.accueil_texte-banniere h1 {
+    color: white;
+}
+
+.accueil_texte-banniere p {
+    color: white;
+    margin: 70px 0;
+    font-size: 27px;
+}
+
+.accueil_banniere {
+    background: url('../asset/img/foret_assombri4.jpg');
+}
+
+.accueil_voir-ba {
+    color: white;
+    font-size: 27px;
+}
+
+.accueil_texte-banniere {
+    padding: 40px 49% 160px 0;
+}

@@ -1,6 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.posisition-fixe{
+  position: sticky;
+
+	opacity: 0.9;
+	z-index: 1;
+	top: 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px !important;
+  text-shadow: 0px 4px 1px rgba(255, 0, 0, 0.47);
+}
+
 .infos_bas {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-  }
-  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+header nav {
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    top: 0;
+    font-size: 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+   
+    text-shadow: 0px 4px 1px rgb(255 0 0 / 47%);
+    justify-content: space-between;
+    margin-right: 3vw;
+    height: 14vh;
+}
+
+header nav a {
+  text-decoration:none; 
+  margin: 4vw;
+  color: #000000;
+}
+
+header img {
+  width: 88px;
+  height: 92px;
+  left: 75px;
+  top: 8px;
+
+  background: url(asset/img/Logo.png);
+}
+
+
+/*Footer*/
+
+footer{
+  background-color: #840C1A;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  position: absolute;
+  bottom: 0;
+}
+footer nav a {
+  text-decoration:none; 
+  margin: 4vw;
+  color: #ffffff;
+}
+
+.footer_nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.réseaux_bas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
