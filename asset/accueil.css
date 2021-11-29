@@ -1,0 +1,94 @@
+.accueil_texte-banniere h1 {
+    color: white;
+}
+
+.accueil_texte-banniere p {
+    color: white;
+    margin: 70px 0;
+    font-size: 27px;
+}
+
+.accueil_banniere {
+    background: url('../asset/img/foret_assombri4.jpg');
+}
+
+.accueil_voir-ba {
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px white solid;
+    padding: 8px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+.accueil_voir-ba:hover {
+    background: #840C1A;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.accueil_voir-ba > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.accueil_texte-banniere {
+    padding: 40px 49% 160px 0;
+    position: relative;
+}
+
+.accueil_video {
+    margin: 10px auto 0px 10px;
+    padding-bottom: 30px;
+}
+
+.accueil_video iframe {
+    width: 230px;
+    height: 130px;
+    margin-left: 6px;
+}
+
+.accueil_bande-annonce {
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+        
+.accueil_bande-annonce iframe {
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.accueil_personnage-div {
+    position: relative;
+    margin-bottom: -5px;
+}
+
+.accueil_personnage-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media (max-width:1000px) {
+    .accueil_personnage-img {
+        display: none;
+    }
+
+    .accueil_texte-banniere {
+        text-align: center;
+        padding: 20px 0;
+  }
+  
+  .accueil_video {
+    text-align: center;
+  }
+
+}
