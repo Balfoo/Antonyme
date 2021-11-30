@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 62.5% ; /*met la taille de police à 10, et ne change pas lors de zoom dans la page. 1rem = 10px*/
 }
 
 .container {
@@ -7,9 +8,16 @@ body {
   margin: 0px auto;
 }
 
+.posisition-fixe{
+  position: sticky;
+	opacity: 0.9;
+	z-index: 1;
+	top: 0;
+}
+
 h1 {
   font-weight: bold;
-  font-size: 50px !important;
+  font-size: 5rem !important;
   text-shadow: 0px 4px 1px rgba(255, 0, 0, 0.47);
 }
 
@@ -19,7 +27,117 @@ h1 {
   align-items: baseline;
 }
 
+/*header*/
 
+.bandeau_davertissement {
+  background: aliceblue;
+}
+
+.bandeau_davertissement > p {
+  margin: 0;
+  text-align: center;
+}
+
+
+header nav {
+  display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    top: 0;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 3.2rem;
+   
+    text-shadow: 0px 4px 1px rgb(255 0 0 / 47%);
+    justify-content: space-around;
+    margin-right: 3vw;
+    padding: 10px 0;
+}
+
+header nav a {
+  text-decoration:none; 
+  padding: 7px 35px;
+  color: #000000;
+  transition: 0.2s;
+}
+
+header nav a:hover {
+  background: #840C1A;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+header img {
+  width: 88px;
+  height: 92px;
+  left: 75px;
+  top: 8px;
+
+  background: url(asset/img/Logo.png);
+}
+
+@media (max-width:800px) { 
+  header nav, .lien_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+/*Footer*/
+
+footer{
+  background-color: #840C1A;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  min-height: 100px;
+  position: relative;
+}
+
+footer nav a {
+  text-decoration:none; 
+  color: #ffffff;
+  transition: 0.2s;
+}
+footer nav a:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+.footer_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.réseaux_bas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.réseaux_bas a {
+  margin-right: 10px;
+}
+
+@media (max-width:800px) { 
+  .footer_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+  min-height: 200px;
+  }
+}
 
 
 
@@ -29,4 +147,3 @@ h1 {
   }
 
 }
-  
