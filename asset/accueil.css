@@ -10,6 +10,10 @@
 
 .accueil_banniere {
     background: url('../asset/img/foret_assombri4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .accueil_voir-ba {
@@ -40,7 +44,7 @@
 }
 
 .accueil_video {
-    margin: 10px auto 0px 10px;
+    margin: 10px auto 0px 10px !important;
     padding-bottom: 30px;
 }
 
