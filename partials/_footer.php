@@ -9,7 +9,7 @@
 </div>
    <a href="#">S'inscrire à la newsletter</a> 
     <a href="mention_legale.php">Mention légale </a>
-    <a href="ressources.php">Télecharger nos ressources</a>
+    <a href="ressources.php">Presse</a>
 </nav>
 
 </footer>

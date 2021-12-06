@@ -27,7 +27,37 @@ h1 {
   align-items: baseline;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span, p, label, form {
+  font-size: 1rem;
+}
+
+.bouton {
+  border: 3px white solid;
+  background: white;
+  transition: 0.2s;
+  margin-top: 10px;
+  border: #840C1A solid 2px;
+}
+.bouton:hover {
+  background: #840C1A;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+input, textarea {
+  border: #840C1A solid 2px;
+}
+
 /*header*/
+
+header {
+  background-color: white;
+}
 
 .bandeau_davertissement {
   background: aliceblue;
