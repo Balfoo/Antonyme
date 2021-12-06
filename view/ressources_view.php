@@ -5,7 +5,7 @@ include('partials/_header.php');
 <div class="presse-fond">
     <div class="container">
             <div>
-                <h1 class="presse-noir" >Presse</h1>
+                <h1 class="presse-titre" >Presse</h1>
             </div>
 
         <section>
