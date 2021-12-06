@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="asset/contact.css">
     <link rel="stylesheet" href="asset/mentions-legales.css">
     <link rel="stylesheet" href="asset/accueil.css">
+    <link rel="stylesheet" href="asset/presse.css">
     <link rel="stylesheet" href="asset/style.css">
     <link rel="stylesheet" href="asset/normalize.css"> <!--Doit toujours être en dernier ! -->
 </head>
