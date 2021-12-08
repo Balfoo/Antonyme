@@ -4,15 +4,14 @@
 var produits = new Array();
   // produits["NomdemonProduit"] = ["prix", "description"];
 
-  produits["Pulls"] = ["Pulls", "25", "100% coton éco-responsable", "0"];
-  produits["T-Shirt"] = ["T-Shirt", "19", "En promo", "0"];
-  produits["Jeans"] = ["Jeans", "25", "inusable", "0"];
-  produits["Veste & Manteau"] = ["Veste & Manteau", "75", "anti-tout et confortable", "0"];
-  produits["Chemise"] = ["Chemise", "35", "aérer", "0"];
-  produits["Robe"] = ["Robe", "35", "légère", "0"];
-  produits["Jupe"] = ["Jupe", "15", "douse et 100% coton", "0"];
-  produits["Polos"] = ["Polos", "20", "tien chaux", "0"];
-  produits["Survêtement"] = ["Survêtement", "40", "Un peu chère", "0"];
+  produits["Pulls"] = ["Pulls", "35", "Avec le logo du film", "0"];
+  produits["T-Shirt"] = ["T-Shirt", "25", "Avec le logo du film", "0"];
+  produits["Casquette"] = ["Casquette", "25", "La casquette du réalisateur", "0"];
+  produits["Mug"] = ["Mug", "15", "Récupiant Buvable", "0"];
+  produits["Pins"] = ["pins", "5", "Au Top !", "0"];
+  produits["Affiche"] = ["Affiche", "14", "l'affiche du film", "0"];
+  produits["La pelle"] = ["La pelle", "120", "Figurine de la pelle", "0"];
+  produits["Bague"] = ["Bague", "70", "Bague de Mendi", "0"];
 
 
 

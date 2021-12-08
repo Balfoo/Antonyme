@@ -17,7 +17,7 @@ include('partials/_header.php');
         <a class="facture" onclick="display();"><i class="fas fa-shopping-basket"></i> Facture</a>
       </div>
 
-      <h1>Catalogue :</h1>
+      <h1>Boutique :</h1>
 
       <div>
         <p id="articles">
@@ -34,22 +34,22 @@ include('partials/_header.php');
           <tr>
             <td id="client">
 
-              <div><span>Entreprise</span> Environnement Corporative</div>
-              <div><span>Client</span> Patrice Hammer</div>
-              <div><span>Adresse</span> 15 rue du dieu, 75000 Paris</div>
-              <div><span>Email</span> <a href="mailto:monmail@gmail.com">Patrice.Hammer@free.fr</a></div>
-              <div><span>Date</span> 23 Mai 2020</div>
+              <!--<div><span>Nom</span></div>
+              <div><span>Client</span></div>
+              <div><span>Adresse</span> lens</div>
+              <div><span>Email</span> <a href="antonymelefilm@gmail.com">antonymelefilm@gmail.com</a></div>-->
+              <div><span>Date</span> <?php echo date("d-m-Y"); ?></div>
 
 
             </td>
 
             <td id="entreprise">
 
-              <div>Forger</div>
-              <div>la Defence Grand Arche</div>
-              <div>92400, Hauts-de-Seine France</div>
-              <div>06 56 28 03 95</div>
-              <div>Forger.fr@gmail.com</div>
+              <div>Antonyme le film</div>
+              <div>Lens</div>
+              <div>France</div>
+              <div></div>
+              <div>antonymelefilm@gmail.com</div>
 
             </td>
           </tr>
