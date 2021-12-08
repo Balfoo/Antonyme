@@ -8,7 +8,7 @@
       <div class="container">
         <div class="accueil_texte-banniere">
           <h1>Découvrez le nouveau court métrage Antonyme</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui mattis at risus, non, sed. Sed enim pharetra leo, diam pellentesque.</p>      
+          <p>Alors qu'il est en proie à la malchance, Louis cache un autre visage, l'Antonyme de celui-ci.</p>      
           <div class="accueil_voir-ba"><img src="asset/img/play.png" alt="play"><a id="voir-bd" href="#accueil_bande-annonce">VOIR LA BANDE ANNONCE</a></div>
         </div>
       </div>
