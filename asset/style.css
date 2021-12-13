@@ -107,8 +107,6 @@ header img {
   height: 92px;
   left: 75px;
   top: 8px;
-
-  background: url(asset/img/Logo.png);
 }
 
 @media (max-width:800px) { 
