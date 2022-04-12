@@ -1,0 +1,35 @@
+.presse-flex {
+    display: flex;
+  }
+    
+  .presse-flex img {
+    width: 100%;
+    transition: 0.2s;
+  }
+  .presse-flex img:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+  }
+
+  .presse-flex div {
+    margin: 10px;
+  }
+  
+  .presse-titre {
+      margin:  0 0 20px 0 !important;
+  }
+
+.presse-fond {
+    background: url('../asset/img/maison_anna_assombri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+@media (max-width:800px) { 
+    .presse-flex {
+        flex-direction: column;
+    }
+}

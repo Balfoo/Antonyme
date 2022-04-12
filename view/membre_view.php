@@ -2,135 +2,68 @@
 include('partials/_header.php');
 ?>
 
-<div >
-  <section >
-  <h2>Les Membres de l'équipe</h2>
-    <!-- Membre 1 -->
-  <div >
-    <div >
-      <img  src="">
-      <div >
-        <p>Petel</p>
-        <p>Louise</p>
-        <p>Réalisatrice</p>
+
+  <section class="banniere_membre">
+    <div class="membre_1">
+
+      
+      <!-- Membre 1 -->
+     
+      <div class="acteur">
+        <img src="asset/img/DSC_0020.JPG">
+        <h1>Romain Dussoulier</h1>
+        <h3>Dans le rôle de Louis</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 2 -->
-    <div>
-      <img src="">
-      <div>
-        <p>Leignel</p>
-        <p>Mendy</p>
-        <p>Assistant Réal</p>
+      
+      <div class="acteur">
+        <img src="asset/img/DSC_0039.JPG">
+        <h1>Loris Martinez</h1>
+        <h3>Dans le rôle de Loris</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 3 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>J</p>
-        <p>Océane</p>
-        <p>Making Of</p>
+
+      <div class="acteur">
+        <img src="asset/img/alycia.jpg">
+        <h1>Alycia Bacha</h1>
+        <h3>Dans le rôle de Rebecca</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 4 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>L</p>
-        <p>Roxane</p>
-        <p>Making Of</p>
+
+      <div class="acteur">
+        <img src="asset/img/alice.jpg">
+        <h1>Alice Vidrequin</h1>
+        <h3>Dans le rôle de Camille</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 5 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>Soltisyak</p>
-        <p>Clément</p>
-        <p>Perchman</p>
+</div>
+
+    <div class="membre_2">
+      <div class="acteur">
+        <img src="asset/img/amelie.png">
+        <h1>Amélie Françoise</h1>
+        <h3>Dans le rôle de Anna</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 6 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>Hodé</p>
-        <p>Florent</p>
-        <p>Régie</p>
+
+      <div class="acteur">
+        <img src="asset/img/bastien.JPG">
+        <h1>Bastien Mendes</h1>
+        <h3>Dans le rôle de Baptiste</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 7 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>Leemann</p>
-        <p>Rémi</p>
-        <p>Chef Op</p>
+    
+      
+      <div class="acteur">
+        <img src="asset/img/damien.png">
+        <h1>Damien Josse</h1>
+        <h3>Dans le rôle de la caissière </h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 8 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>L</p>
-        <p>Kévin</p>
-        <p>Ingé Son</p>
+
+      <div class="acteur">
+        <img src="asset/img/louise.jpg">
+        <h1>Louise Pétel</h1>
+        <h3>Dans le rôle de la jeune fille kidnappée</h3>
       </div>
-      <img src="">
-    </div>
-    <!-- Membre 9 -->
-    <div>
-      <img  src="">
-      <div>
-        <p>Françoise</p>
-        <p>Amélie</p>
-        <p>Cadreuse</p>
-      </div>
-      <img src="">
-    </div>
-     <!-- Membre 10 -->
-     <div>
-      <img  src="">
-      <div>
-        <p>Lesage</p>
-        <p>Emilie</p>
-        <p>Script</p>
-      </div>
-      <img src="">
-    </div>
-  </div>  
-  <h2>Les Acteurs</h2>
-    <!-- Acteur 1 -->
-  <div >
-    <div >
-      <img  src="">
-      <div >
-        <p>Nom</p>
-        <p>Prénom</p>
-        <p>Rôle</p>
-      </div>
-      <img src="">
-    </div>
-    <!-- Acteur 2 -->
-    <div>
-      <img src="">
-      <div>
-        <p>Nom</p>
-        <p>Prénom</p>
-        <p>Rôle</p>
-      </div>
-      <img src="">
-    </div>
+
+</div>
+
 
   </section>
-<?php
+  <?php
 include('partials/_footer.php');
 ?>

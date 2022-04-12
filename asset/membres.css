@@ -1,0 +1,55 @@
+.acteur h1{
+font-size: 2rem !important;
+color: white;
+}
+.acteur h3{
+    font-size: 1.2rem;
+}
+.acteur img{
+    border-radius: 50%;
+    max-width: 15vw;
+
+}
+.acteur{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 5vh 0vw;
+}
+.membre_1{
+    margin: auto;
+    display: flex;
+     flex-direction: row;
+}
+
+.membre_2{
+margin: auto;
+display: flex;
+     flex-direction: row;
+}
+.banniere_membre{
+    background: url('../asset/img/foret_assombri1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+@media (max-width:800px) { 
+    .acteur img{
+        border-radius: 50%;
+        max-width: 40vw;
+    
+    }
+    .membre_1{
+        margin: auto;
+        display: flex;
+         flex-direction: column;
+    }
+    
+    .membre_2{
+    margin: auto;
+    display: flex;
+         flex-direction: column;
+    }
+}
